@@ -96,8 +96,7 @@ public class DialogTestActivity extends AppCompatActivity {
                 new AlertDialog.Builder(DialogTestActivity.this).setTitle(TAG)
                         .setIcon(R.drawable.nuclear).setView(VIEW).setPositiveButton("close", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(DialogTestActivity.this,editText1.getText().toString(),Toast.LENGTH_LONG).show();
+                    public void onClick(DialogInterface dialog, int which) { Toast.makeText(DialogTestActivity.this,editText1.getText().toString(),Toast.LENGTH_LONG).show();
                         dialog.dismiss();
                     }
                 }).show();
