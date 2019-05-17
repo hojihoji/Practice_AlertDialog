@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practice_AlertDialog</string>
+    <string name="button1">アラートダイアログ　サンプル１</string>
+    <string name="button2">アラートダイアログ　サンプル２</string>
+    <string name="button3">アラートダイアログ　サンプル３</string>
+    <string name="button4">アラートダイアログ　サンプル４</string>
+    <string name="button5">アラートダイアログ　サンプル５</string>
+
+</resources>
